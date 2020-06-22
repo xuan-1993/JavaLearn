@@ -1,0 +1,24 @@
+
+Throwable 所有异常的父类
+
+Throwable子类：
+    Exception  ，error(一般不处理，这是致命的错误)
+
+Exception的子类；
+    RunTimeException
+    IOException
+
+RunTimeException的子类：(主要学习这个异常)
+    NullPointerException
+    IllegalArgumentException
+
+
+JVM异常处理方式
+1.自己处理，继续运行
+2.JVM自己处理，终止程序
+
+
+什么是运行时异常：编译时不会报错，运行时异常，终止程序
+
+什么是编译时异常：编译时既不会通过
+
